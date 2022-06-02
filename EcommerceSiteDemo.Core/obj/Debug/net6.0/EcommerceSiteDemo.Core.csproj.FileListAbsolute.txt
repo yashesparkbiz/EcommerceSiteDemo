@@ -1,0 +1,12 @@
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\bin\Debug\net6.0\EcommerceSiteDemo.Core.deps.json
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\bin\Debug\net6.0\EcommerceSiteDemo.Core.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\bin\Debug\net6.0\EcommerceSiteDemo.Core.pdb
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.csproj.AssemblyReference.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.AssemblyInfoInputs.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.AssemblyInfo.cs
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.csproj.CoreCompileInputs.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\refint\EcommerceSiteDemo.Core.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.pdb
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\ref\EcommerceSiteDemo.Core.dll

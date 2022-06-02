@@ -1,0 +1,12 @@
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\bin\Debug\net6.0\EcommerceSiteDemo.Shared.deps.json
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\bin\Debug\net6.0\EcommerceSiteDemo.Shared.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\bin\Debug\net6.0\EcommerceSiteDemo.Shared.pdb
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.csproj.AssemblyReference.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.AssemblyInfo.cs
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\refint\EcommerceSiteDemo.Shared.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.pdb
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\ref\EcommerceSiteDemo.Shared.dll

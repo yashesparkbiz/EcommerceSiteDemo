@@ -1,0 +1,12 @@
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\bin\Debug\net6.0\EcommerceSiteDemo.Data.deps.json
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\bin\Debug\net6.0\EcommerceSiteDemo.Data.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\bin\Debug\net6.0\EcommerceSiteDemo.Data.pdb
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.csproj.AssemblyReference.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.AssemblyInfoInputs.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.AssemblyInfo.cs
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.csproj.CoreCompileInputs.cache
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\refint\EcommerceSiteDemo.Data.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.pdb
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\ref\EcommerceSiteDemo.Data.dll
