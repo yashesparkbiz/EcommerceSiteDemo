@@ -179,6 +179,12 @@ namespace EcommerceSiteDemo.Data.Migrations
                 {
                     table.PrimaryKey("PK_Product_cart", x => x.id);
                     table.ForeignKey(
+                        name: "FK_Product_cart_Product_product_id",
+                        column: x => x.product_id,
+                        principalTable: "Product",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
                         name: "FK_Product_cart_User_user_id",
                         column: x => x.user_id,
                         principalTable: "User",
@@ -233,17 +239,29 @@ namespace EcommerceSiteDemo.Data.Migrations
                 {
                     table.PrimaryKey("PK_Order_Details", x => x.id);
                     table.ForeignKey(
+                        name: "FK_Order_Details_Address_delivery_address_id",
+                        column: x => x.delivery_address_id,
+                        principalTable: "Address",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
                         name: "FK_Order_Details_Discount_discount_id",
                         column: x => x.discount_id,
                         principalTable: "Discount",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
+                        name: "FK_Order_Details_Order_order_id",
+                        column: x => x.order_id,
+                        principalTable: "Order",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.NoAction);
+                    table.ForeignKey(
                         name: "FK_Order_Details_Product_product_id",
                         column: x => x.product_id,
                         principalTable: "Product",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                 });
 
             migrationBuilder.CreateIndex(
@@ -257,13 +275,28 @@ namespace EcommerceSiteDemo.Data.Migrations
                 column: "user_id");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Order_Details_delivery_address_id",
+                table: "Order_Details",
+                column: "delivery_address_id");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Order_Details_discount_id",
                 table: "Order_Details",
                 column: "discount_id");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Order_Details_order_id",
+                table: "Order_Details",
+                column: "order_id");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Order_Details_product_id",
                 table: "Order_Details",
+                column: "product_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Product_cart_product_id",
+                table: "Product_cart",
                 column: "product_id");
 
             migrationBuilder.CreateIndex(
@@ -295,9 +328,6 @@ namespace EcommerceSiteDemo.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Order");
-
-            migrationBuilder.DropTable(
                 name: "Order_Details");
 
             migrationBuilder.DropTable(
@@ -313,13 +343,16 @@ namespace EcommerceSiteDemo.Data.Migrations
                 name: "Discount");
 
             migrationBuilder.DropTable(
+                name: "Order");
+
+            migrationBuilder.DropTable(
                 name: "Product_category");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Product");
 
             migrationBuilder.DropTable(
-                name: "Product");
+                name: "User");
 
             migrationBuilder.DropTable(
                 name: "Address");

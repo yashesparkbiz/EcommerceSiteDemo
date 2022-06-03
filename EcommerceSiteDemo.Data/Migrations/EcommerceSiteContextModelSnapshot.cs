@@ -188,6 +188,8 @@ namespace EcommerceSiteDemo.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Delivery_Address_Id");
+
                     b.HasIndex("Discount_Id");
 
                     b.HasIndex("Order_Id");
@@ -293,6 +295,8 @@ namespace EcommerceSiteDemo.Data.Migrations
                         .HasColumnName("user_id");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Product_Id");
 
                     b.HasIndex("User_Id");
 
@@ -478,6 +482,12 @@ namespace EcommerceSiteDemo.Data.Migrations
 
             modelBuilder.Entity("EcommerceSiteDemo.Data.Data.Order_Details", b =>
                 {
+                    b.HasOne("EcommerceSiteDemo.Data.Data.Address", "Address")
+                        .WithMany()
+                        .HasForeignKey("Delivery_Address_Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("EcommerceSiteDemo.Data.Data.Discount", "Discount")
                         .WithMany()
                         .HasForeignKey("Discount_Id")
@@ -496,6 +506,8 @@ namespace EcommerceSiteDemo.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Address");
+
                     b.Navigation("Discount");
 
                     b.Navigation("Order");
@@ -505,11 +517,19 @@ namespace EcommerceSiteDemo.Data.Migrations
 
             modelBuilder.Entity("EcommerceSiteDemo.Data.Data.Product_cart", b =>
                 {
+                    b.HasOne("EcommerceSiteDemo.Data.Data.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("Product_Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("EcommerceSiteDemo.Data.Data.User", "User")
                         .WithMany()
                         .HasForeignKey("User_Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Product");
 
                     b.Navigation("User");
                 });

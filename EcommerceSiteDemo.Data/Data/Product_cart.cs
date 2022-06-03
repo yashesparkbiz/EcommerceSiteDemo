@@ -10,7 +10,11 @@ namespace EcommerceSiteDemo.Data.Data
         public int Id { get; set; }
 
         [Column("product_id", TypeName = "int")]
-        public int Product_Id { get; set; }
+        [Display(Name = "Product")]
+        public virtual int Product_Id { get; set; }
+
+        [ForeignKey("Product_Id")]
+        public virtual Product Product { get; set; } = new Product() { };
 
         [Column("quantity", TypeName = "int")]
         public int Quantity { get; set; }
@@ -25,7 +29,7 @@ namespace EcommerceSiteDemo.Data.Data
         [ForeignKey("User_Id")]
         public virtual User User { get; set; } = new User();
 
-        [Column("is_active", TypeName = "bit")]
+        [Column("is_active", TypeName = "bit")] 
         public bool Is_Active { get; set; }
 
         [Column("created_at", TypeName = "datetime")]

@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EcommerceSiteDemo.Data.Data
 {
@@ -25,7 +20,12 @@ namespace EcommerceSiteDemo.Data.Data
         public int Quantity { get; set; }
 
         [Column("delivery_address_id", TypeName = "int")]
-        public int Delivery_Address_Id { get; set; }
+        [Display(Name = "Address")]
+        public virtual int Delivery_Address_Id { get; set; }
+
+        [ForeignKey("Delivery_Address_Id")]
+        public virtual Address Address { get; set; } = new Address() { };
+
 
         [Column("order_id", TypeName = "int")]
         [Display(Name = "Order")]
