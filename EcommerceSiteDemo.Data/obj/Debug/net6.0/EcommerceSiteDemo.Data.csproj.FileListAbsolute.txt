@@ -10,3 +10,5 @@ C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceS
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\refint\EcommerceSiteDemo.Data.dll
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.pdb
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\ref\EcommerceSiteDemo.Data.dll
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\bin\Debug\net6.0\EcommerceSiteDemo.Data.runtimeconfig.json
+C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Data\obj\Debug\net6.0\EcommerceSiteDemo.Data.genruntimeconfig.cache

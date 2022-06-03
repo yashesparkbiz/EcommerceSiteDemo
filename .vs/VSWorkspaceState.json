@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\EcommerceSiteDemo",
+    "\\EcommerceSiteDemo.Shared"
   ],
-  "SelectedNode": "\\C:\\Users\\R5\\Desktop\\EcommerceSite",
+  "SelectedNode": "\\EcommerceSiteDemo.Shared\\Class1.cs",
   "PreviewInSolutionExplorer": false
 }
