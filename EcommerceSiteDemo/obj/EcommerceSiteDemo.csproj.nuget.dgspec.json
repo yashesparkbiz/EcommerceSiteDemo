@@ -27,7 +27,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\R5\\Desktop\\Ecommerce\\EcommerceSiteDemo.Data\\EcommerceSiteDemo.Data.csproj": {
+                "projectPath": "C:\\Users\\R5\\Desktop\\Ecommerce\\EcommerceSiteDemo.Data\\EcommerceSiteDemo.Data.csproj"
+              },
+              "C:\\Users\\R5\\Desktop\\Ecommerce\\EcommerceSiteDemo.Shared\\EcommerceSiteDemo.Shared.csproj": {
+                "projectPath": "C:\\Users\\R5\\Desktop\\Ecommerce\\EcommerceSiteDemo.Shared\\EcommerceSiteDemo.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +46,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -167,6 +180,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
