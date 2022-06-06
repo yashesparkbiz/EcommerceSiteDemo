@@ -1,4 +1,4 @@
-﻿using SadiantApi.Shared;
+﻿using EcommerceSiteDemo.Shared;
 
 namespace EcommerceSiteDemo.Shared;
 

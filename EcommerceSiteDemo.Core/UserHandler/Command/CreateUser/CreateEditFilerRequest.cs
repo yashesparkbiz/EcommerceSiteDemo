@@ -1,7 +1,7 @@
 ﻿using EcommerceSiteDemo.Shared;
 using MediatR;
 
-namespace SadiantApi.Core.Commands;
+namespace EcommerceSiteDemo.Core.Commands;
 
 public class CreateUserRequest : IRequest<AppHandlerResponse>
 {

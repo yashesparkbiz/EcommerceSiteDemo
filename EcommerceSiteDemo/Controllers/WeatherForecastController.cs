@@ -1,7 +1,7 @@
 using EcommerceSiteDemo.Controllers.Shared;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using SadiantApi.Core.Commands;
+using EcommerceSiteDemo.Core.Commands;
 
 namespace EcommerceSiteDemo.Controllers
 {

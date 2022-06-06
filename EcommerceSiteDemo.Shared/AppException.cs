@@ -2,7 +2,7 @@
 using EcommerceSiteDemo.Shared.Enums;
 using FluentValidation.Results;
 
-namespace SadiantApi.Shared;
+namespace EcommerceSiteDemo.Shared;
 
 public class AppException : Exception
 {

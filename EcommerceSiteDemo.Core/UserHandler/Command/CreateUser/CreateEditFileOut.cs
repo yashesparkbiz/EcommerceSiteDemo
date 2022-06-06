@@ -1,6 +1,6 @@
 ﻿using EcommerceSiteDemo.Shared;
 
-namespace SadiantApi.Core.HandleFiles.Commands;
+namespace EcommerceSiteDemo.Core.HandleFiles.Commands;
 
 public class CreateUserOut : BaseResponseOut
 {

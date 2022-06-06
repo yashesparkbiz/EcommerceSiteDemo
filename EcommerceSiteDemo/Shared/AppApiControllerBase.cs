@@ -5,7 +5,6 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.WebUtilities;
-using SadiantApi.Shared;
 namespace EcommerceSiteDemo.Controllers.Shared;
 
 [ApiController]
@@ -14,9 +13,7 @@ public class AppApiControllerBase : ControllerBase
     public readonly ILogger<AppApiControllerBase> _logger;
     public readonly IMediator _mediator;
 
-    public AppApiControllerBase(
-        ILogger<AppApiControllerBase> logger,
-        IMediator mediator)
+    public AppApiControllerBase(ILogger<AppApiControllerBase> logger, IMediator mediator)
     {
         _logger = logger;
         _mediator = mediator;
@@ -25,9 +22,7 @@ public class AppApiControllerBase : ControllerBase
     protected async Task<IActionResult> AppActionResultAsync(IRequest<AppHandlerResponse> request, CancellationToken cancellationToken)
     {
         var handlerResponse = await _mediator.Send(request, cancellationToken);
-        return handlerResponse.HasResponse
-            ? Ok(handlerResponse.Response)
-            : ExceptionToActionResult(handlerResponse.Failure ?? new Exception("Unexpected Error"));
+        return handlerResponse.HasResponse ? Ok(handlerResponse.Response) : ExceptionToActionResult(handlerResponse.Failure ?? new Exception("Unexpected Error"));
     }
 
     internal IActionResult ExceptionToActionResult(Exception ex)

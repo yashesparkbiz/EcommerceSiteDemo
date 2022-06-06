@@ -10,3 +10,11 @@ C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\Ecommerc
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\refint\EcommerceSiteDemo.Shared.dll
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.pdb
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Shared\obj\Debug\net6.0\ref\EcommerceSiteDemo.Shared.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.csproj.AssemblyReference.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.AssemblyInfoInputs.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.AssemblyInfo.cs
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.csproj.CoreCompileInputs.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\refint\EcommerceSiteDemo.Shared.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Shared\obj\Debug\net6.0\EcommerceSiteDemo.Shared.pdb

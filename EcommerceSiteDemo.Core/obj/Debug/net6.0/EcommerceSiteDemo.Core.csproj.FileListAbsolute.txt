@@ -10,3 +10,11 @@ C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceS
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\refint\EcommerceSiteDemo.Core.dll
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.pdb
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo.Core\obj\Debug\net6.0\ref\EcommerceSiteDemo.Core.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.csproj.AssemblyReference.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.AssemblyInfoInputs.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.AssemblyInfo.cs
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.csproj.CoreCompileInputs.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\refint\EcommerceSiteDemo.Core.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo.Core\obj\Debug\net6.0\EcommerceSiteDemo.Core.pdb

@@ -66,3 +66,13 @@ C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo\obj\Debug\net6.0\refint\Ecommerc
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.pdb
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.genruntimeconfig.cache
 C:\Users\R5\Desktop\Ecommerce\EcommerceSiteDemo\obj\Debug\net6.0\ref\EcommerceSiteDemo.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.csproj.AssemblyReference.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.AssemblyInfoInputs.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.AssemblyInfo.cs
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.csproj.CoreCompileInputs.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.MvcApplicationPartsAssemblyInfo.cs
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.MvcApplicationPartsAssemblyInfo.cache
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\refint\EcommerceSiteDemo.dll
+F:\Esparkbiz\EcommerceSiteDemo\EcommerceSiteDemo\obj\Debug\net6.0\EcommerceSiteDemo.pdb

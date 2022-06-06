@@ -1,9 +1,9 @@
 ﻿using EcommerceSiteDemo.Data.Data;
 using EcommerceSiteDemo.Shared;
 using MediatR;
-using SadiantApi.Core.Commands;
+using EcommerceSiteDemo.Core.Commands;
 
-namespace SadiantApi.Core.HandleFiles.Commands;
+namespace EcommerceSiteDemo.Core.HandleFiles.Commands;
 
 public class CreateUserHandler : IRequestHandler<CreateUserRequest, AppHandlerResponse>
 {
